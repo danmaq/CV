@@ -20,7 +20,7 @@
 - 🌐 NodeJS / React / Meteor / Bootstrap / jQuery / Flash / Flex / MySQL / etc.
 - 🖥 WPF / Xamarin / QtQuick / PowerShell / bash
 - 🎨 AfterEffects / Photoshop / Live2D モデリング / Web デザイン / UX デザイン
-- 🤖 遺伝的アルゴリズムを用いた機械学習 / etc.
+- 🧠 遺伝的アルゴリズムを用いた機械学習 / etc.
 
 ## Work History
 
@@ -48,7 +48,7 @@
 ### 2010 - 2011 東京デザイナー学院
 
 - 👨‍🏫 非常勤講師として XNA + C# を使用したゲーム開発の教育
-- 📖 講師養成のため、カリキュラムと教科書を作成
+- 📖 講師養成を兼ね、上記教科書を作成
 
 ### 2008 - 2011 株式会社プロディジ
 
@@ -60,7 +60,7 @@ Web・ゲームなどを中心に携わっていました。
 - 📟 PHP + Smarty を使ったフィーチャーフォン向け<ruby>
 絵文字<rp>(</rp><rt>デコメ</rt><rp>)</rp>
 </ruby>配信サイト開発
-- 📟 Flash + Flex + AS3 を使った、NintendoDSゲームの一部を体験版としてブラウザに移植開発
+- 🌐 Flash + Flex + AS3 を使った、NintendoDSゲームの一部を体験版としてブラウザに移植開発
 
 ### 2006 - 2008 株式会社タカ インフォテクノ
 
@@ -71,7 +71,7 @@ Web・ゲームなどを中心に携わっていました。
 - 🖥 事務機器系の倉庫業における物流システム運用、および C++ を使った業務効率化システム開発
 - 🌐 自動車系列の商社業における、C を使用した Web ベース予算管理システムのバックエンド処理開発
 
-## Other Qualifications
+## Others
 
 - 🎮 C に似た独自スクリプト言語で縦型シューティングゲームを2本作成、合計 7,000 本近く販売した経験あり。  
   現在も[無料で頒布中](https://github.com/danmaq/touhou-ctc-danmakufu)。
