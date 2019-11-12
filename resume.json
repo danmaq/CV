@@ -19,7 +19,7 @@
       "postalCode": "175-0094",
       "region": "東京都"
     },
-    "name": "野村 周平",
+    "name": "S.N.",
     "phone": "080-5655-5559",
     "picture": "",
     "profiles": [
@@ -47,7 +47,7 @@
   ],
   "interests": [
     {
-      "keywords": [
+      "keywordss": [
         "GitHub API",
         "GitHub Desktop (OS X)",
         "GitHub",
@@ -68,7 +68,180 @@
       "level": "Native speaker"
     }
   ],
+  "projects": [
+    {
+      "description": "オフィシャル通販サイトの構築。Perl で作られた従来システムを React への更改開発。",
+      "entity": "大手靴メーカー",
+      "env": {
+        "languages": ["JavaScript (ES201x)", "TypeScript"],
+        "os": ["Windows 10 1903", "macOS Mojave"],
+        "platforms": ["BackstopJS", "Jest", "MobX", "NextJS", "React"]
+      },
+      "highlights": [
+        "品質改善施策として、TypeScript の導入、アトミックデザインを主軸とした大規模リファクタリングなどを実現した。",
+        "定期的に手動テストを行なっていたが、単体・結合・E2E の三段階のテストを構築、大部分を自動化した。"
+      ],
+      "location": "東京・北参道",
+      "name": "公式 EC サイトの運用開発",
+      "position": "チーフ QC エンジニア",
+      "roles": [
+        "テストを主軸とした、品質管理・改善",
+        "メインロジックのリファクタリング"
+      ],
+      "startDate": "2018-02-01"
+    },
+    {
+      "description": "オンラインクレーンゲームの開発。ブラウザベースだったゲームのフロントエンド部分をネイティブアプリとして更改開発。",
+      "endDate": "2018-01-31",
+      "entity": "オンライン物販業",
+      "env": {
+        "languages": ["JavaScript (ES2017)"],
+        "os": ["Ubuntu", "Windows 10 1803", "macOS Sierra"],
+        "platforms": ["Expo.io", "React Native", "Redux", "Wercker"]
+      },
+      "highlights": [
+        "ラピッドプロトタイピング方式の開発を積極的に導入、視覚的なすり合わせを円滑化した。",
+        "前案件で甘かった CI/CD を全面導入、ビルドのコストを削減。"
+      ],
+      "location": "東京・池袋",
+      "name": "オンラインクレーンゲームのスマホアプリ開発",
+      "position": "チーフエンジニア",
+      "roles": [
+        "アートディレクション、サウンドディレクション",
+        "要件定義・基本設計",
+        "詳細設計・実装・テスト"
+      ],
+      "startDate": "2017-08-01"
+    },
+    {
+      "description": "女性向け農場系ブラウザゲームの新規開発、サービスイン、運用保守開発。",
+      "endDate": "2017-07-31",
+      "entity": "販売業のコンテンツ部門",
+      "env": {
+        "languages": ["ActionScript 3", "JavaScript (ES3)"],
+        "os": ["Windows 7"],
+        "platforms": ["Apache Flex", "jQuery"]
+      },
+      "highlights": [
+        "品質向上のためテスト自動化を積極的に導入した。ゲーム業界では馴染みが薄く、浸透までかなり時間を要した。"
+      ],
+      "location": "東京・池袋",
+      "name": "ブラウザゲーム開発",
+      "position": "Flash エンジニア",
+      "roles": [
+        "メインロジック開発",
+        "画面設計・UX デザイン",
+        "素材オーサリング"
+      ],
+      "startDate": "2014-08-01"
+    },
+    {
+      "description": "Android 向けの配信映像の検索アプリにおける、機能追加開発",
+      "endDate": "2017-03-31",
+      "entity": "放送業",
+      "env": {
+        "languages": ["C++ 11", "QML / JavaScript (ES3)"],
+        "os": ["OpenSUSE 42", "Windows 7"],
+        "platforms": ["Ansible", "QtQuick", "Vagrant"]
+      },
+      "highlights": [
+        "アプリ側の、映像の特殊再生機能など機能追加担当。",
+        "レガシーなバージョン管理を段階的に Git へ移行した。",
+        "手動で組んでいた煩雑な開発環境を、仮想化・自動構築できるようにした。"
+      ],
+      "location": "東京・新宿",
+      "name": "社内用映像資料検索アプリ開発",
+      "position": "プログラマー",
+      "roles": ["実装・テスト", "詳細設計", "開発環境構築の自動化"],
+      "startDate": "2016-12-01"
+    },
+    {
+      "description": "モバイル向けオンラインサロンサービスの新規開発",
+      "endDate": "2016-11-30",
+      "entity": "アセットマネジメント業",
+      "env": {
+        "languages": ["HTML5", "JavaScript (ES3)", "PHP"],
+        "os": ["CentOS", "Windows 10 1511"],
+        "platforms": ["Bootstrap", "FuelPHP", "さくらクラウド"]
+      },
+      "highlights": [
+        "上流全般およびフロントエンド開発、バックエンド開発のディレクションと補佐的に開発も行った。",
+        "投資家と一対多でチャットできる、個別課金型チャットルームサービスの新規開発。"
+      ],
+      "location": "東京・錦糸町",
+      "name": "モバイル Web アプリ新規開発",
+      "position": "チーフプログラマー",
+      "roles": [
+        "UXデザイン・アートディレクション",
+        "フロントエンド開発・テスト",
+        "要件定義〜設計全般"
+      ],
+      "startDate": "2015-11-01"
+    },
+    {
+      "description": "業務用無線機器の設定ツールの大規模更改、および保守開発",
+      "endDate": "2016-09-30",
+      "entity": "音響機器メーカー",
+      "env": {
+        "languages": ["C# 6", "C++", "HTML5", "VB 6"],
+        "os": ["Windows 10 1511"],
+        "platforms": [".NET Framework", "ActiveX", "MFC", "WPF"]
+      },
+      "highlights": [
+        "MFC、旧 VB ベースで複数に散乱していた設定ツールを WPF アプリとして統合、各機能のモダナイズ対応をした。",
+        "また、旧バージョンのバグ修正など、保守開発も並行して対応した。"
+      ],
+      "location": "神奈川・横浜",
+      "position": "プログラマー",
+      "roles": ["画面設計・詳細設計", "開発・テスト"],
+      "startDate": "2016-05-01"
+    },
+    {
+      "description": "モバイル向け 3D アクション RPG の新規開発",
+      "endDate": "2015-05-31",
+      "entity": "大手ゲーム会社",
+      "env": {
+        "languages": ["C++ 11"],
+        "os": ["Android", "Windows 7"],
+        "platforms": ["CRI WARE", "Esenthel Engine"]
+      },
+      "highlights": [
+        "ランダムマップの自動生成、サウンドエンジン周りの開発を主に担当。"
+      ],
+      "location": "東京・四ツ谷",
+      "name": "スマホゲーム開発",
+      "position": "プログラマー",
+      "roles": ["画面設計・詳細設計", "開発・テスト"],
+      "startDate": "2015-01-01"
+    },
+    {
+      "description": "モバイル向けソーシャルゲームの新規開発",
+      "endDate": "2014-07-31",
+      "entity": "大手ゲーム会社",
+      "env": {
+        "languages": ["C#", "Objective-C"],
+        "os": ["OS X Lion"],
+        "platforms": ["NGUI", "Unity"]
+      },
+      "highlights": [
+        "UI を中心に、通信や実績、コア部分のロジック実装まで幅広く担当。",
+        "戦隊モノのシミュレーション RPG ソーシャルゲーム開発。"
+      ],
+      "location": "東京・渋谷",
+      "name": "スマホゲーム開発",
+      "position": "プログラマー",
+      "roles": ["画面設計・詳細設計", "開発・テスト"],
+      "startDate": "2014-05-01"
+    }
+  ],
   "publications": [
+    {
+      "name": "YouTuber プロデュース活動",
+      "publisher": "danmaq",
+      "releaseDate": "2019-05-31",
+      "summary": "YouTuber プロデュース活動と並行し、私自身も別名義でエンジニア系 YouTuber として活動をしている。",
+      "website": "https://dmq.cm/"
+    },
     {
       "name": "ゲーム制作・販売活動",
       "publisher": "danmaq",
@@ -96,232 +269,66 @@
       "releaseDate": "2012-12-31",
       "summary": "ライトノベルを 2 作品執筆・販売。合計 400 部販売。",
       "website": "https://dmq.cm/"
-    },
-    {
-      "name": "YouTuber プロデュース活動",
-      "publisher": "danmaq",
-      "releaseDate": "2019-05-31",
-      "summary": "YouTuber プロデュース活動と並行し、私自身も別名義でエンジニア系 YouTuber として活動をしている。",
-      "website": "https://dmq.cm/"
     }
   ],
   "skills": [
     {
-      "category": "Web フロントエンド・モバイル開発",
+      "keywords": [
+        "Apache Flex や Adobe AIR を用いた、Flash アプリ開発業務など経験あり",
+        "業務および個人で 3 年以上開発に携わる"
+      ],
+      "level": "advanced",
       "name": "ActionScript",
-      "level": "advanced",
-      "keyword": [
-        "業務および個人で 3 年以上開発に携わる",
-        "Apache Flex や Adobe AIR を用いた、Flash アプリ開発業務など経験あり"
-      ]
+      "tags": "Web フロントエンド・モバイル開発"
     },
     {
-      "category": "Web フロントエンド・モバイル開発",
-      "name": "TypeScript",
-      "level": "master",
-      "keyword": [
-        "業務および個人で 2 年以上開発に携わる",
-        "TypeScript の不具合を発見、Issue 報告など経験あり",
-        "React を中心として、Meteor など浅く広い経験あり"
-      ]
-    },
-    {
-      "category": "Web フロントエンド・モバイル開発",
-      "name": "JavaScript",
-      "level": "master",
-      "keyword": [
-        "業務および個人で 5 年以上開発に携わる",
-        "ES2 時代から ES2019 まで浅く広い知見あり",
-        "React を中心として、Meteor など浅く広い経験あり"
-      ]
-    },
-    {
-      "category": "Web バックエンド開発",
-      "name": "PHP",
-      "level": "intermediate",
-      "keyword": [
-        "業務および個人で 3 年以上開発に携わる",
-        "フレームワークの経験は浅いが、FuelPHP および Laravel で小規模なアプリ作成経験あり"
-      ]
-    },
-    {
-      "category": "ゲーム・モバイル・業務ツール開発",
-      "name": "C#",
-      "level": "advanced",
-      "keyword": [
-        "業務および個人で 5 年以上開発に携わる",
+      "keywords": [
         "C# 2.0〜7 まで幅広く知見あり",
-        "WPF、Unity、XNA など業務アプリからゲームまで幅広い分野で携わった"
-      ]
+        "WPF、Unity、XNA など業務アプリからゲームまで幅広い分野で携わった",
+        "業務および個人で 5 年以上開発に携わる"
+      ],
+      "level": "advanced",
+      "name": "C#",
+      "tags": "ゲーム・モバイル・業務ツール開発"
     },
     {
-      "category": "ゲーム・モバイル・業務ツール開発",
-      "name": "C++",
-      "level": "intermediate",
-      "keyword": [
-        "業務および個人で 5 年以上開発に携わる",
+      "keywords": [
         "C++98〜1x、STL 等幅広く知見あり",
-        "QtQuick、MFC、Esenthel Engine、Cocos2d-x など業務アプリからゲームまで幅広い分野で携わった"
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "大手靴メーカー",
-      "details": [
-        "テストを主軸とした、品質管理・改善",
-        "メインロジックのリファクタリング"
+        "QtQuick、MFC、Esenthel Engine、Cocos2d-x など業務アプリからゲームまで幅広い分野で携わった",
+        "業務および個人で 5 年以上開発に携わる"
       ],
-      "env": {
-        "os": ["macOS Mojave", "Windows 10 1903"],
-        "languages": ["TypeScript", "JavaScript (ES201x)"],
-        "platforms": ["React", "NextJS", "MobX", "Jest", "BackstopJS"]
-      },
-      "highlights": [
-        "品質改善施策として、TypeScript の導入、アトミックデザインを主軸とした大規模リファクタリングなどを実現した。",
-        "定期的に手動テストを行なっていたが、単体・結合・E2E の三段階のテストを構築、大部分を自動化した。"
-      ],
-      "location": "東京・北参道",
-      "position": "チーフ QC エンジニア",
-      "startDate": "2018-02-01",
-      "summary": "オフィシャル通販サイトの構築。Perl で作られた従来システムを React への更改開発。"
+      "level": "intermediate",
+      "name": "C++",
+      "tags": "ゲーム・モバイル・業務ツール開発"
     },
     {
-      "company": "オンライン物販業",
-      "details": [
-        "要件定義・基本設計",
-        "詳細設計・実装・テスト",
-        "アートディレクション、サウンドディレクション"
+      "keywords": [
+        "ES2 時代から ES2019 まで浅く広い知見あり",
+        "React を中心として、Meteor など浅く広い経験あり",
+        "業務および個人で 5 年以上開発に携わる"
       ],
-      "endDate": "2018-01-31",
-      "env": {
-        "os": ["macOS Sierra", "Windows 10 1803", "Ubuntu"],
-        "languages": ["JavaScript (ES2017)"],
-        "platforms": ["React Native", "Expo.io", "Redux", "Wercker"]
-      },
-      "highlights": [
-        "ラピッドプロトタイピング方式の開発を積極的に導入、視覚的なすり合わせを円滑化した。",
-        "前案件で甘かった CI/CD を全面導入、ビルドのコストを削減。"
-      ],
-      "location": "東京・池袋",
-      "position": "チーフエンジニア",
-      "startDate": "2017-08-01",
-      "summary": "オンラインクレーンゲームの開発。ブラウザベースだったゲームのフロントエンド部分をネイティブアプリとして更改開発。"
+      "level": "master",
+      "name": "JavaScript",
+      "tags": "Web フロントエンド・モバイル開発"
     },
     {
-      "company": "販売業のコンテンツ部門",
-      "details": [
-        "画面設計・UX デザイン",
-        "メインロジック開発",
-        "素材オーサリング"
+      "keywords": [
+        "React を中心として、Meteor など浅く広い経験あり",
+        "TypeScript の不具合を発見、Issue 報告など経験あり",
+        "業務および個人で 2 年以上開発に携わる"
       ],
-      "endDate": "2017-07-31",
-      "env": {
-        "os": ["Windows 7"],
-        "languages": ["ActionScript 3", "JavaScript (ES3)"],
-        "platforms": ["Apache Flex", "jQuery"]
-      },
-      "highlights": [
-        "品質向上のためテスト自動化を積極的に導入した。ゲーム業界では馴染みが薄く、浸透までかなり時間を要した。"
-      ],
-      "location": "東京・池袋",
-      "position": "Flash エンジニア",
-      "startDate": "2014-08-01",
-      "summary": "女性向け農場系ブラウザゲームの新規開発、サービスイン、運用保守開発。"
+      "level": "master",
+      "name": "TypeScript",
+      "tags": "Web フロントエンド・モバイル開発"
     },
     {
-      "company": "放送業",
-      "details": ["詳細設計", "実装・テスト", "開発環境構築の自動化"],
-      "endDate": "2017-03-31",
-      "env": {
-        "os": ["OpenSUSE 42", "Windows 7"],
-        "languages": ["C++ 11", "QML / JavaScript (ES3)"],
-        "platforms": ["QtQuick", "Vagrant", "Ansible"]
-      },
-      "highlights": [
-        "アプリ側の、映像の特殊再生機能など機能追加担当。",
-        "手動で組んでいた煩雑な開発環境を、仮想化・自動構築できるようにした。",
-        "レガシーなバージョン管理を段階的に Git へ移行した。"
+      "keywords": [
+        "フレームワークの経験は浅いが、短期間 FuelPHP および Laravel に触れた経験あり",
+        "業務および個人で 3 年以上開発に携わる"
       ],
-      "location": "東京・新宿",
-      "position": "プログラマー",
-      "startDate": "2016-12-01",
-      "summary": "Android 向けの配信映像の検索アプリにおける、機能追加開発"
-    },
-    {
-      "company": "音響機器メーカー",
-      "details": ["画面設計・詳細設計", "開発・テスト"],
-      "endDate": "2016-09-30",
-      "env": {
-        "os": ["Windows 10 1511"],
-        "languages": ["C# 6", "C++", "VB 6", "HTML5"],
-        "platforms": ["WPF", ".NET Framework", "MFC", "ActiveX"]
-      },
-      "highlights": [
-        "MFC、旧 VB ベースで複数に散乱していた設定ツールを WPF アプリとして統合、各機能のモダナイズ対応をした。",
-        "また、旧バージョンのバグ修正など、保守開発も並行して対応した。"
-      ],
-      "location": "神奈川・横浜",
-      "position": "プログラマー",
-      "startDate": "2016-05-01",
-      "summary": "業務用無線機器の設定ツールの大規模更改、および保守開発"
-    },
-    {
-      "company": "アセットマネジメント業",
-      "details": [
-        "要件定義〜設計全般",
-        "フロントエンド開発・テスト",
-        "UXデザイン・アートディレクション"
-      ],
-      "endDate": "2016-11-30",
-      "env": {
-        "os": ["Windows 10 1511", "CentOS"],
-        "languages": ["PHP", "HTML5", "JavaScript (ES3)"],
-        "platforms": ["FuelPHP", "Bootstrap", "さくらクラウド"]
-      },
-      "highlights": [
-        "投資家と一対多でチャットできる、個別課金型チャットルームサービスの新規開発。",
-        "上流全般およびフロントエンド開発、バックエンド開発のディレクションと補佐的に開発も行った。"
-      ],
-      "location": "東京・錦糸町",
-      "position": "チーフプログラマー",
-      "startDate": "2015-11-01",
-      "summary": "モバイル向けオンラインサロンサービスの新規開発"
-    },
-    {
-      "company": "大手ゲーム会社",
-      "details": ["画面設計・詳細設計", "開発・テスト"],
-      "endDate": "2015-05-31",
-      "env": {
-        "os": ["Windows 7", "Android"],
-        "languages": ["C++ 11"],
-        "platforms": ["Esenthel Engine", "CRI WARE"]
-      },
-      "highlights": [
-        "ランダムマップの自動生成、サウンドエンジン周りの開発を主に担当。"
-      ],
-      "location": "東京・四ツ谷",
-      "position": "プログラマー",
-      "startDate": "2015-01-01",
-      "summary": "モバイル向け 3D アクション RPG の新規開発"
-    },
-    {
-      "company": "大手ゲーム会社",
-      "details": ["画面設計・詳細設計", "開発・テスト"],
-      "endDate": "2014-07-31",
-      "env": {
-        "os": ["OS X Lion"],
-        "languages": ["C#", "Objective-C"],
-        "platforms": ["Unity", "NGUI"]
-      },
-      "highlights": [
-        "UI を中心に、通信や実績、コア部分のロジック実装まで幅広く担当。",
-        "戦隊モノのシミュレーション RPG ソーシャルゲーム開発。"
-      ],
-      "location": "東京・渋谷",
-      "position": "プログラマー",
-      "startDate": "2014-05-01",
-      "summary": "モバイル向けソーシャルゲームの新規開発"
+      "level": "intermediate",
+      "name": "PHP",
+      "tags": "Web バックエンド開発"
     }
   ]
 }
