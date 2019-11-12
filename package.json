@@ -1,0 +1,29 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "My CV",
+  "private": true,
+  "author": "danmaq",
+  "license": "MIT",
+  "keywords": [
+    "cv",
+    "website"
+  ],
+  "scripts": {
+    "build": "shokurekisho build resume.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmaq/CV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danmaq/CV/issues"
+  },
+  "homepage": "https://github.com/danmaq/CV#readme",
+  "engines": {
+    "node": ">= 13"
+  },
+  "devDependencies": {
+    "@kurone-kito/shokurekisho-docx-cli": "^0.1.3"
+  }
+}
