@@ -70,12 +70,86 @@
   ],
   "projects": [
     {
+      "description": "電話番号問い合わせのための、業務支援 RPA システムの開発。",
+      "entity": "コールセンター、販売業",
+      "env": {
+        "languages": ["TypeScript"],
+        "os": ["Debian (Buster)", "Windows 10", "macOS Monterey"],
+        "platforms": [
+          "Cypress",
+          "Docker",
+          "Puppeteer",
+          "SQLite",
+          "Serverless(AWS)"
+        ]
+      },
+      "highlights": [
+        "システム完成後も、RPAの処理速度を50倍に高速化したり、データ管理効率化のためバックエンドを構築したりなど、システムの改善を継続的に行っている。"
+      ],
+      "location": "北海道・札幌(テレワーク)",
+      "name": "電話番号RPAシステム開発",
+      "position": "フルスタックエンジニア",
+      "roles": [
+        "Puppeteerを使用した、問い合わせ支援のRPAエンジン構築",
+        "Serverless Frameworkを使用したバックエンド管理システムの構築・運用"
+      ],
+      "startDate": "2021-06-28"
+    },
+    {
+      "description": "既存のグループウェアおよび、ビデオチャットツールの更改開発。",
+      "entity": "営業支援システム販売",
+      "env": {
+        "languages": ["TypeScript"],
+        "os": ["Windows 10", "macOS Monterey"],
+        "platforms": ["React", "unstated-next", "Recoil", "Storybook", "WebRTC"]
+      },
+      "highlights": [
+        "レガシー技術で実装していた旧システムを、モダンなプラットフォームで更改開発、音声通話の文字起こし機能など、いくつかの機能強化の実装をした。"
+      ],
+      "location": "東京・神谷町",
+      "name": "グループウェア、関連システム開発",
+      "position": "フロントエンドエンジニア",
+      "roles": [
+        "音声通話における、文字起こし機能の実装",
+        "全体的な状態管理",
+        "グループウェア部分における、共通コンポーネント実装"
+      ],
+      "startDate": "2020-07-01"
+    },
+    {
+      "description": "ワンオフ部品製造のためのオンライン 3D CAD ツールの開発。",
+      "endDate": "2020-06-30",
+      "entity": "大手金型部品メーカー",
+      "env": {
+        "languages": ["JavaScript (ES201x)", "TypeScript"],
+        "os": ["Windows 10 1903"],
+        "platforms": ["React"]
+      },
+      "highlights": [
+        "主にフロントエンド側(ブラウザ側)の状態管理を担当。",
+        "先方の意向で独自の状態管理ライブラリを使用。"
+      ],
+      "location": "東京・池袋",
+      "name": "オンライン 3D CAD ツールの開発",
+      "position": "フロントエンドエンジニア",
+      "roles": ["状態管理担当"],
+      "startDate": "2020-04-01"
+    },
+    {
       "description": "オフィシャル通販サイトの構築。Perl で作られた従来システムを React への更改開発。",
+      "endDate": "2020-03-31",
       "entity": "大手靴メーカー",
       "env": {
         "languages": ["JavaScript (ES201x)", "TypeScript"],
         "os": ["Windows 10 1903", "macOS Mojave"],
-        "platforms": ["BackstopJS", "Jest", "MobX", "NextJS", "React"]
+        "platforms": [
+          "BackstopJS",
+          "BrowserStack",
+          "Jest",
+          "MobX",
+          "NextJS",
+          "React"
+        ]
       },
       "highlights": [
         "品質改善施策として、TypeScript の導入、アトミックデザインを主軸とした大規模リファクタリングなどを実現した。",
@@ -232,6 +306,27 @@
       "position": "プログラマー",
       "roles": ["画面設計・詳細設計", "開発・テスト"],
       "startDate": "2014-05-01"
+    },
+    {
+      "description": "Web フロントエンド、バックエンド、ゲーム制作、スマホアプリ制作、遊技機の液晶演出制作など、多数案件を経験しています。",
+      "endDate": "2014-05-31",
+      "entity": "複数業種",
+      "env": {
+        "languages": ["C#", "Objective-C", "C++", "Java", "Perl", "PHP"],
+        "platforms": [
+          "Flash",
+          "jQuery",
+          "XNA (C#)",
+          "Moose (Perl)",
+          "MySQL",
+          "PostgreSQL"
+        ]
+      },
+      "location": "東京、埼玉、神奈川、栃木、ほか",
+      "name": "その他",
+      "position": "プログラマー",
+      "roles": ["画面設計・詳細設計", "開発・テスト"],
+      "startDate": "2006-05-05"
     }
   ],
   "publications": [
@@ -274,15 +369,6 @@
   "skills": [
     {
       "keywords": [
-        "Apache Flex や Adobe AIR を用いた、Flash アプリ開発業務など経験あり",
-        "業務および個人で 3 年以上開発に携わる"
-      ],
-      "level": "advanced",
-      "name": "ActionScript",
-      "tags": "Web フロントエンド・モバイル開発"
-    },
-    {
-      "keywords": [
         "C# 2.0〜7 まで幅広く知見あり",
         "WPF、Unity、XNA など業務アプリからゲームまで幅広い分野で携わった",
         "業務および個人で 5 年以上開発に携わる"
@@ -304,7 +390,7 @@
     {
       "keywords": [
         "ES2 時代から ES2019 まで浅く広い知見あり",
-        "React を中心として、Meteor など浅く広い経験あり",
+        "React を中心として、Meteor や Serverless Framework など浅く広い経験あり",
         "業務および個人で 5 年以上開発に携わる"
       ],
       "level": "master",
@@ -315,11 +401,11 @@
       "keywords": [
         "React を中心として、Meteor など浅く広い経験あり",
         "TypeScript の不具合を発見、Issue 報告など経験あり",
-        "業務および個人で 2 年以上開発に携わる"
+        "業務および個人で 4 年以上開発に携わる"
       ],
       "level": "master",
       "name": "TypeScript",
-      "tags": "Web フロントエンド・モバイル開発"
+      "tags": "Web フロントエンド・バックエンド、モバイル開発"
     },
     {
       "keywords": [
